@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.modal-big {
+	width:800px;
+	left:40%;
+}
+
+.modal-big .modal-body {
+	max-height:100%;
+}
+
+.group_name {
+    text-align:right;
+    padding-top:8px;
+    padding-right:4px;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.modal {
+	width:590px;
+}

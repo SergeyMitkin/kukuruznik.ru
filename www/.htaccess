@@ -1,0 +1,16 @@
+php_flag display_errors on
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|images|robots\.txt|admin)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteCond %{HTTP_HOST} ^www.kukuruznik.com$ [NC]
+RewriteRule ^(.*)$ http://kukuruznik.com/$1 [R=301,L]
+
+
+## Anti-DoS
+deny from 109.120.180.33
+
+

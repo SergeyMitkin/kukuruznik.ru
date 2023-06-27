@@ -1,0 +1,6 @@
+application/frontend/templates_c/
+application/backend/templates_c/
+*.csv
+log.txt
+*/database.php
+config.php

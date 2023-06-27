@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+
+
+User-agent: Yandex
+Disallow: /admin/
+Host: www.kukuruznik.com
+
+User-agent: Googlebot
+Disallow: /admin/
+
+Sitemap: http://www.kukuruznik.com/sitemap.xml
